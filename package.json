@@ -1,0 +1,24 @@
+{
+  "name": "custom-media",
+  "version": "1.0.0",
+  "description": "This is a simple discussion platform that user comment, reply comment and upvote any comments they like. \r In V1 version only used vanilla JavaScript, Css and Html.\r Upvote: clicked comment will be moved to the top, others will be sorted by date descending. Replies also can be upvote.\r Only comments can be replied, replies cannot be replied.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
