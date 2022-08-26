@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { Navigate, useLocation, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Comment } from '../model/Comment';
 import { CommentRequestModel } from '../model/CommentRequestModel';
 import { CommentUpdateRequestModel } from '../model/CommentUpdateRequestModel';
